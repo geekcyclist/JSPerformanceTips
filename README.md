@@ -30,6 +30,8 @@ If you are new to JavaScript, start with the [JS Learners Fieldguide](https://me
 
 Thinkful.com JavaScript Best Practices Guide [part 1](https://www.thinkful.com/learn/javascript-best-practices-1/) and [part 2](https://www.thinkful.com/learn/javascript-best-practices-1/). 
 
+How to [Analyze Runtime Performance with Chrome](https://developers.google.com/web/tools/chrome-devtools/profile/rendering-tools/analyze-runtime?hl=en)
+
 [Guide to Perceived Performance](https://www.mobify.com/blog/beginners-guide-to-perceived-performance/) - Mobile Focused
 
 When it all goes wrong... [JavaScript Debugging for Beginners](http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners/)

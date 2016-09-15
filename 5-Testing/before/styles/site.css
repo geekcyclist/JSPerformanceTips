@@ -4,3 +4,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, dl, ol, form, fieldset, input, label, table
 font-family: "helvetica neue", helvetica, "lucinda sans unicode", "sans serif";
 padding: 0;
 }
+
+#wrapper {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
