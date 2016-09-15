@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>JS Performance Tips</title>
+        <link rel="stylesheet" type="text/css" href="styles/site.css"	media="screen" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+		        <h1>Array[index] v. Cached Value</h1>
+            </header>
+            <section id='content'>
+                <p>Compare these values across different browsers to view perfomance differences
+                    in the various JavaScript Engines.</p>
+                <ul>
+                    <li>Edge/IE - <i>Chakra</i></li>
+                    <li>Firefox - <i>Spidermonkey</i></li>
+                    <li>Safari - <i>Nitro</i></li>
+                    <li>Chrome - <i>V8</i></li>
+                    <li>Node.js - <i>V8</i></li>
+                </ul>
+
+                <div id='output'>Calculating...</div>
+            </section>
+        </div>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/cacheTest.js"></script>
+    </body>
+</html>
