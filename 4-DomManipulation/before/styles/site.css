@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, dl, ol, form, fieldset, input, label, table, tbody, tfoot, th, tr, td, textarea, select {
+font-family: "helvetica neue", helvetica, "lucinda sans unicode", "sans serif";
+padding: 0;
+}
