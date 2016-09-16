@@ -37,6 +37,6 @@ How to [Analyze Runtime Performance with Chrome](https://developers.google.com/w
 When it all goes wrong... [JavaScript Debugging for Beginners](http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners/)
 
 ### JSON
-Get a users Delicious Links http://feeds.delicious.com/v2/json/gary.ray/programming?count=150
+Get Delicious Links [API Documentation](http://del.icio.us/rss) and [Example](http://feeds.del.icio.us/v2/json/gary.ray/programming?count=99)
 
 [Online JSON Generator](http://beta.json-generator.com/) 
