@@ -25,9 +25,10 @@ function fillEmployeeList(){
         // Make sure you remember to replace empList with filteredEmployees...
         for(var j = 0, eCount = filteredEmployees.length; j < eCount; j++) {
             employee = filteredEmployees[j];
+            empName = employee.name;
             var emp = new Employee(
-                employee.name.first,
-                employee.name.last,
+                empName.first,
+                empName.last,
                 employee.email,
                 divName
             )

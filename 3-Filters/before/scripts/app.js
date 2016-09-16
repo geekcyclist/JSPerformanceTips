@@ -16,12 +16,13 @@ function fillEmployeeList(){
         empList = division.employees;
         for(var j = 0, eCount = empList.length; j < eCount; j++) {
             employee = empList[j];
+            empName = employee.name;
             // Restrict to only active employees
             // but don't be a NOOB and use === true
             if(employee.isActive){
                 var emp = new Employee(
-                    employee.name.first,
-                    employee.name.last,
+                    empName.first,
+                    empName.last,
                     employee.email,
                     divName
                 )

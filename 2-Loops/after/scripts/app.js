@@ -18,13 +18,14 @@ function fillEmployeeList(){
         empList = division.employees;                               //the empList only changes in the outer loop
         for(var j = 0, eCount = empList.length; j < eCount; j++) {  //cache the count of employees **remember scope**
             employee = empList[j];                                  //cache for use in constructor
+            empName = employee.name
             var emp = new Employee(
-                employee.name.first,    //3
-                employee.name.last,     //3
+                empName.first,          //2
+                empName.last,           //2
                 employee.email,         //2
                 divName                 //1
             )
-            employeeList.push(emp);     // have added steps outside, but constructor is 9 * 225 = 2025
+            employeeList.push(emp);     // have added steps outside, but constructor is 7 * 225 = 1575
         }                                                       
     }
 }
