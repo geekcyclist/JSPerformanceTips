@@ -1,6 +1,6 @@
 // Global Varibles for use in all functions
 var iterations, msg, scores, index;
-iterations = 10000000;
+iterations = 1000000;
 msg = '';
 scores = [91,75,86,59,76,81,88,79]
 index = 7;
